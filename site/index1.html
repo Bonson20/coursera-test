@@ -14,6 +14,41 @@
       h1 {
         font-family: "Times New Roman", Times, serif;
       }
+      section ul {
+        list-style: none;
+      }
+      a:link,
+      a:visited {
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+        background: rgb(140, 255, 9);
+        border: 1px solid blue;
+        color: black;
+        display: block;
+        margin-bottom: 1px;
+      }
+      a:hover,
+      a:active {
+        background-color: red;
+        color: solid blue;
+      }
+      h1#top {
+        background-color: blue;
+        color: black;
+        text-align: center;
+      }
+      section li:nth-child(2) {
+        font-size: 24px;
+      }
+       section div:nth-child(odd) {
+        background-color: gray;
+      }
+       section > div:nth-child(5):hover {
+background-color: green;
+cursor: pointer;
+      }
+
     </style>
   </head>
   <body>
@@ -32,6 +67,16 @@
     <section id="section 1">
       <h2 class="red-text">Section 1</h2>
       <p>
+        <section>
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+        <div>div4</div>
+        <div>div5</div>
+        <div>div6</div>
+        <div>div7</div>
+        <div>div8</div>
+      </section>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
         animi labore, ullam ratione laboriosam earum assumenda cumque veniam
         aut, rem sit quas a optio est nihil dolorem laborum, nesciunt qui.
